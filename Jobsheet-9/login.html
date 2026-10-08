@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SIMPUS-Mini | Login</title>
+</head>
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <input type="checkbox" name="" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-section">
+            <h2>Login</h2>
+            <p>Masukin <em>username</em> dan <em>password</em></p>
+            
+            <!-- Form loginnya nih -->
+            <form action="index.html" method="POST" class="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Username..." required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password..." required>
+                </div>
+                <button type="submit" class="btn-login">Masuk</button>
+                <p class="register-link" style="margin-top: 15px; text-align: center;">
+                Belum punya akun? <a href="register.html">Daftar di sini</a>
+            </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 1</p>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
